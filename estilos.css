@@ -1,0 +1,43 @@
+#root {
+    width: 720px;
+    max-width: 90%;
+    margin: 0 auto;
+    height: 100px;
+}
+
+#root ul{
+    margin: 0;
+    padding: 0;
+}
+
+li input [type="text"], textarea{
+    display: block;
+    width: 90%;
+    border: 1px;
+    border-bottom: solid 1px #eee;
+}
+[data-prev-tag="H1"], h1{
+    font-size: 1em;
+}
+
+li h1 a{
+    color: black;
+}
+li{
+    position: relative;
+}
+.close{
+    position: absolute;
+    right: 1em;
+    top: 10px; 
+    display: inline;
+    font-size: 1em;
+    cursor: pointer;
+    border-bottom: solid 1px black;
+}
+li.close:hover, li .close:focus {
+    background-color: #eee;
+}
+li .close:focus {
+    outline: none;
+}
