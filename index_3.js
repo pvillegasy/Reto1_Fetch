@@ -61,7 +61,7 @@ window.addEventListener("load", (ev) =>{
         })
     }
     let editInPlace = (node, todo)=>{
-        node.addEventListener("lclick", (ev)=>{
+        node.addEventListener("click", (ev)=>{
             //reemplaza el nodo por un campo de texto, para luego editar
             console.log('Doble Click');
             let inputText = document.createElement("textarea");
