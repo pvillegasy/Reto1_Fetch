@@ -15,7 +15,7 @@ const getPost = id => {
 };
 
 function renderPost(post) {
-  let html = `
+  const html = `
     <a href="">< Volver al listado</a>
     <h1>${post.title}</h1>
     <h5>ID del usuario: ${post.userId}</h5>
